@@ -4,20 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Golf Course Flyover Videos from Your Photos | JustIn1Shoot</title>
-<meta name="description" content="Signature-hole flyovers, hole-by-hole sets and course trailers from your course photos. No drone crew. Delivered within 3 business days of your photos.">
+<meta name="description" content="Signature-hole flyovers, hole-by-hole sets and course trailers from your course photos. Delivered within 3 business days of receiving usable photos.">
 <link rel="canonical" href="https://golf.justinoneshoot.com/">
 <meta property="og:title" content="Golf course flyover videos from your photos">
-<meta property="og:description" content="Signature holes, full hole-by-hole sets and course trailers made from your course photos. No drone crew, delivered within 3 business days of your photos.">
+<meta property="og:description" content="Signature holes, hole-by-hole sets and course trailers from your course photos, delivered within 3 business days of receiving usable photos.">
 <meta property="og:url" content="https://golf.justinoneshoot.com/">
 <meta property="og:type" content="website">
+<meta name="theme-color" content="#0f2a1d">
 <link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,800&amp;display=swap&amp;text=JustIn1Shoot">
 <link rel="stylesheet" href="assets/style.css">
+<script src="assets/scroll.js" defer></script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
- {"@type":"ProfessionalService","@id":"https://justinoneshoot.com/#business","name":"JustIn1Shoot","url":"https://justinoneshoot.com","email":"abhiram@justinoneshoot.com","areaServed":"US"},
+ {"@type":"ProfessionalService","@id":"https://justinoneshoot.com/#business","name":"JustIn1Shoot","url":"https://justinoneshoot.com","email":"abhiram@justinoneshoot.com","logo":"https://justinoneshoot.com/assets/logo.png",
+  "description":"Walkthrough and flyover videos made from clients' photos, done remotely anywhere in the US.",
+  "areaServed":{"@type":"Country","name":"United States"}},
  {"@type":"Service","name":"Golf course flyover videos","url":"https://golf.justinoneshoot.com/",
  "provider":{"@id":"https://justinoneshoot.com/#business"},
- "areaServed":"US","serviceType":"Video production",
+ "areaServed":{"@type":"Country","name":"United States"},"serviceType":"Video production",
  "offers":[{"@type":"Offer","name":"Signature Hole","price":"260","priceCurrency":"USD"},
            {"@type":"Offer","name":"Course Trailer","price":"620","priceCurrency":"USD"},
            {"@type":"Offer","name":"Full Course Set (18 holes)","price":"2250","priceCurrency":"USD"},
@@ -25,76 +32,105 @@
 ]}
 </script>
 </head>
-<body class="golf">
+<body class="golf cine">
+<a class="skip" href="#main">Skip to content</a>
+<div class="backdrop" data-film="scroll.json"><canvas role="img" aria-label="Golf course flyover film"></canvas><div class="shade" aria-hidden="true"></div></div>
 <header class="top"><div class="wrap">
   <a class="brand" href="./"><img src="assets/logo.png" alt="" onerror="this.remove()">JustIn1Shoot Golf</a>
-  <nav><a href="#how">How it works</a><a href="#packages">Packages</a><a href="#faq">FAQ</a><a href="https://homes.justinoneshoot.com">Homes &amp; rentals</a></nav>
+  <nav aria-label="Main"><a href="#how">How it works</a><a href="#packages">Packages</a><a href="#faq">Questions</a><a href="https://homes.justinoneshoot.com">Homes &amp; rentals</a></nav>
+  <a class="pill" href="#packages">See packages</a>
 </div></header>
 
-<main>
-<div class="hero"><div class="wrap">
-  <h1>Show golfers every hole before they book a tee time</h1>
-  <p class="lead">We turn your course photos into smooth flyover videos: a signature hole, a full hole-by-hole set, or a course trailer. No drone crew, no closed holes, delivered within 3 business days of your photos.</p>
+<main id="main">
+<section class="film" aria-label="Golf course flyover film">
+  <div class="screen">
+    <div class="over"><div class="wrap">
+      <div class="title">
+        <h1>Show golfers every hole before they book a tee time</h1>
+        <p class="wordmark" aria-hidden="true">JustIn1Shoot</p>
+      </div>
+      <div class="side">
+        <div class="facts"><div><strong>$260</strong><span>signature hole flyover</span></div><div><strong>3</strong><span>business days from usable photos</span></div><div><strong>0</strong><span>drone crews or closed holes</span></div></div>
+        <p class="film-caption" hidden></p>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<section class="intro"><div class="wrap">
+  <p class="lead">We turn your course photos into smooth flyover videos: a signature hole, a full hole-by-hole set, or a course trailer. No drone crew, no closed holes, delivered within 3 business days of receiving usable photos.</p>
   <div class="ctas"><a class="btn" href="#packages">See packages</a><a class="btn ghost" href="mailto:abhiram@justinoneshoot.com?subject=Golf%20course%20video">Ask a question</a></div>
   <!-- offer:free-first-video (remove this line when the offer is off) -->
   <p class="offer">New to us? Ask about a free first Signature Hole for your course, while spots last.</p>
   <!-- /offer -->
+</div></section>
+
+<section class="block" id="sample"><div class="wrap">
+  <h2>See a flyover</h2>
+  <p class="sub">A sample made the same way yours will be.</p>
   <!-- sample-video: replace the placeholder below with the YouTube embed of the golf sample when its link exists in business.md -->
   <div class="video">Sample flyover coming soon</div>
-</div></div>
+</div></section>
 
-<section id="how"><div class="wrap">
+<section class="block" id="how"><div class="wrap">
   <h2>How it works</h2>
   <p class="sub">You already have the photos. We do the rest.</p>
-  <div class="steps">
-    <div><h3>Choose a package</h3><p>Pay with your package's "Order now" button, then email us your photos.</p></div>
-    <div><h3>Send your photos</h3><p>Email a Google Drive or Dropbox link to <a href="mailto:abhiram@justinoneshoot.com">abhiram@justinoneshoot.com</a> with your course name and address: 3-5 photos per hole, aerials if you have them, and your scorecard. Add your logo and any notes, like the music style or what to feature. Please only send photos you own or have permission to use, for example from your photographer.</p></div>
-    <div><h3>Get your video</h3><p>Horizontal for your website and YouTube, vertical for Instagram and TikTok, within 3 business days of receiving usable photos.</p></div>
-  </div>
+  <ol class="steps">
+    <li><h3>Choose a package</h3><p>Pay with your package's "Order now" button below, then email us your photos.</p></li>
+    <li><h3>Send your photos</h3><p>Email a Google Drive or Dropbox link to <a href="mailto:abhiram@justinoneshoot.com">abhiram@justinoneshoot.com</a> with your course name and address: 3-5 photos per hole, aerials if you have them, and your scorecard. Add your logo and any notes, like the music style or what to feature. Please only send photos you own or have permission to use, for example from your photographer.</p></li>
+    <li><h3>Get your video</h3><p>Horizontal for your website and YouTube, vertical for Instagram and TikTok, within 3 business days of receiving usable photos.</p></li>
+  </ol>
 </div></section>
 
-<section id="packages"><div class="wrap">
+<section class="block" id="packages"><div class="wrap">
   <h2>Packages</h2>
-  <p class="sub">Fixed prices, no surprises. Every video comes with music, captions and your club's logo if you'd like it. One round of changes included.</p>
-  <div class="grid">
-    <div class="card"><h3>Signature Hole</h3><div class="price">$260</div>
-      <ul><li>Your best-known hole as a tee-to-green flyover</li><li>Horizontal + vertical</li><li>Perfect first video</li></ul>
+  <p class="sub">Fixed prices, no surprises. One round of changes included.</p>
+  <div class="menu">
+    <div class="item"><h3>Signature Hole</h3>
+      <ul><li>Your best-known hole as a tee-to-green flyover</li><li>Horizontal and vertical</li><li>The easiest first video</li></ul>
+      <div class="price">$260</div>
       <!-- pay:Signature Hole -->
       <a class="btn" href="https://buy.stripe.com/3cI3cw4Pz2cMgyd2r97ss0h">Order now</a></div>
-    <div class="card"><h3>Course Trailer</h3><div class="price">$620</div>
-      <ul><li>60-90 second highlight trailer: a video tour of your course</li><li>For your homepage, social media and membership or event pages</li><li>Horizontal + vertical</li></ul>
+    <div class="item"><h3>Course Trailer</h3>
+      <ul><li>60-90 second highlight trailer: a video tour of your course</li><li>For your homepage, social media and membership or event pages</li><li>Horizontal and vertical</li></ul>
+      <div class="price">$620</div>
       <!-- pay:Course Trailer -->
       <a class="btn" href="https://buy.stripe.com/7sYcN6a9T9Fegyd6Hp7ss0i">Order now</a></div>
-    <div class="card"><h3>Full Course Set</h3><div class="price">$2,250 <small>18 holes</small></div>
-      <ul><li>Every hole as its own flyover, ready for your website's course tour page</li><li>Plus the course trailer</li><li>9-hole courses: $1,600</li></ul>
+    <div class="item"><h3>Full Course Set</h3>
+      <ul><li>Every hole as its own flyover, ready for your website's course tour page</li><li>Plus the course trailer</li></ul>
+      <div class="price">$2,250<small>18 holes</small></div>
       <!-- pay:Full Course Set -->
-      <a class="btn" href="https://buy.stripe.com/6oU00kgyh04E2Hnd5N7ss0d">Order now (18 holes)</a>
+      <a class="btn" href="https://buy.stripe.com/6oU00kgyh04E2Hnd5N7ss0d">Order now</a></div>
+    <div class="item"><h3>Full Course Set, 9 holes</h3>
+      <ul><li>Every hole as its own flyover, ready for your website's course tour page</li><li>Plus the course trailer</li></ul>
+      <div class="price">$1,600<small>9 holes</small></div>
       <!-- pay:Full Course Set (9 holes) -->
-      <a class="btn ghost" href="https://buy.stripe.com/4gM4gA4Pz8Ba81Hd5N7ss0e">Order now (9 holes)</a></div>
+      <a class="btn" href="https://buy.stripe.com/4gM4gA4Pz8Ba81Hd5N7ss0e">Order now</a></div>
   </div>
 </div></section>
 
-<section id="honest"><div class="wrap">
-  <div class="honest">
-    <h2>Honest by design</h2>
-    <p>Our flyovers are AI visualisations animated from your course's own photos, not surveyed drone footage. We add camera motion, music and text; we never add, remove or change bunkers, water, trees or greens. Yardages come only from your scorecard.</p>
+<section class="block" id="honest"><div class="wrap honest">
+  <h2>Honest by design</h2>
+  <div>
+    <p>Our flyovers are AI visualisations animated from your course's own photos, not surveyed drone footage.</p>
+    <p>We add camera motion, music and text. We never add, remove or change bunkers, water, trees or greens, and yardages come only from your scorecard.</p>
   </div>
 </div></section>
 
-<section id="faq"><div class="wrap">
+<section class="block" id="faq"><div class="wrap">
   <h2>Questions</h2>
   <details><summary>What photos do you need?</summary><p>At least 3-5 photos per hole (tee, fairway, green), aerial or drone photos if you have them, and a course map or scorecard with layouts and yardages. A shared Google Drive or Dropbox folder is easiest.</p></details>
   <details><summary>How long does it take?</summary><p>Within 3 business days of receiving usable photos.</p></details>
   <details><summary>Is it real drone footage?</summary><p>No. It's an AI visualisation made from your photos, so there's no crew on site and no closed holes. If you have your own drone photos, send them and we'll use them.</p></details>
   <details><summary>Can I get changes?</summary><p>Yes, one round of revisions is included. Reply to the delivery email with what you'd like changed.</p></details>
   <details><summary>What do I receive?</summary><p>MP4 files: horizontal (16:9) for your website and YouTube, and vertical (9:16) for Reels, TikTok and Shorts.</p></details>
-  <details><summary>How do I pay?</summary><p>Through the payment link for your package (the "Order now" button above). Payments are handled securely by Stripe.</p></details>
+  <details><summary>How do I pay?</summary><p>Through the payment link for your package. Payments are handled securely by Stripe.</p></details>
 </div></section>
 </main>
 
 <footer><div class="wrap">
-  <div>© JustIn1Shoot · <a href="mailto:abhiram@justinoneshoot.com">abhiram@justinoneshoot.com</a></div>
-  <div><a href="https://homes.justinoneshoot.com">Homes &amp; rentals</a> · <a href="privacy.html">Privacy</a></div>
+  <p>© JustIn1Shoot<br><a href="mailto:abhiram@justinoneshoot.com">abhiram@justinoneshoot.com</a></p>
+  <div class="links"><a href="https://homes.justinoneshoot.com">Homes &amp; rentals</a><a href="https://justinoneshoot.com">JustIn1Shoot</a><a href="privacy.html">Privacy</a></div>
 </div></footer>
 </body>
 </html>
